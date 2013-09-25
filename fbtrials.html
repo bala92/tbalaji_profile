@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : '642170652478822',                        // App ID from the app dashboard
+      channelUrl : 'fbtrials.html', // Channel file for x-domain comms
+      status     : true,                                 // Check Facebook Login status
+      xfbml      : true                                  // Look for social plugins on the page
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=642170652478822";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fb-like-box" data-href="https://www.facebook.com/ForeBrainTechnologies" data-width="292" data-show-faces="true" data-stream="true" data-show-border="true" data-header="true"></div>
+</body>
+
+</html>
